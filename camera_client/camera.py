@@ -54,6 +54,7 @@ def send_to_server(file_path, camera_id="CAM001"):
 
     except requests.exceptions.RequestException:
         return False
+#
 
 def setup_camera():
     global LAST_ATTEMPT_TIME
